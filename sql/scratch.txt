@@ -1,0 +1,9 @@
+dropping the old table has problems, dependent tables:
+
+ERROR:  cannot drop table newtbmap.tvd because other objects depend on it
+
+DETAIL:
+
+view newctmlmap.vds_view depends on table newtbmap.tvd
+view newctmlmap.vds_view_qgis depends on view newctmlmap.vds_view
+view tempseg.tdetector depends on table newtbmap.tvd
