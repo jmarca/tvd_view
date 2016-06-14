@@ -8,8 +8,8 @@
   },
   "scripts": {
       "test": "tap"
-      ,"install" : "sqitch deploy ${SQITCH_DB_URI}"
-      ,"uninstall" : "sqitch revert ${SQITCH_DB_URI}"
+      ,"sqitch:deploy" : "sqitch deploy ${SQITCH_DB_URI}"
+      ,"sqitch:revert" : "sqitch revert ${SQITCH_DB_URI}"
   },
   "repository": {
     "type": "git",
