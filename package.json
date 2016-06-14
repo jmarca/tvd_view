@@ -1,0 +1,24 @@
+{
+  "name": "tvd_view",
+  "version": "1.0.0",
+  "description": "Sqitch code for CalVAD tvd and twim materialized view",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+      "test": "tap"
+      ,"install" : "sqitch deploy ${SQITCH_DB_URI}"
+      ,"uninstall" : "sqitch revert ${SQITCH_DB_URI}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarca/tvd_view.git"
+  },
+  "author": "James E. Marca",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jmarca/tvd_view/issues"
+  },
+  "homepage": "https://github.com/jmarca/tvd_view#readme"
+}
