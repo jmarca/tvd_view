@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-      "test": "tap"
-      ,"sqitch:deploy" : "sqitch deploy ${SQITCH_DB_URI}"
-      ,"sqitch:revert" : "sqitch revert ${SQITCH_DB_URI}"
+    "test": "tap",
+    "sqitch:deploy": "sqitch deploy ${SQITCH_DB_URI}",
+    "sqitch:revert": "sqitch revert ${SQITCH_DB_URI}"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jmarca/tvd_view/issues"
   },
-  "homepage": "https://github.com/jmarca/tvd_view#readme"
+  "homepage": "https://github.com/jmarca/tvd_view#readme",
+  "dependencies": {
+    "calvad_detectors_schema": "github:jmarca/calvad_detectors_schema"
+  }
 }
